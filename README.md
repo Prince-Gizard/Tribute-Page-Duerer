@@ -1,2 +1,3 @@
 # Tribute-Page-Duerer
-Это учебный проект freeCodeCamp (https://www.freecodecamp.org/learn/) 
+Это учебный проект Responsive Web Design 
+freeCodeCamp (https://www.freecodecamp.org/learn/) 
