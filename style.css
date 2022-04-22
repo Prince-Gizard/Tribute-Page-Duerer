@@ -17,10 +17,30 @@ h1 {
   margin-bottom: 0;
 }
 
+#tribute-info ul {
+  list-style: none;
+  padding: 0 3rem;
+}
+
+#tribute-info li {
+  text-align: left;
+  padding: 1.6rem;
+  background-color: #fff;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+#tribute-info li:hover {
+  background-color: #f1f1f1;
+}
+
 @media (max-width: 460px) {
   h1 {
     font-size: 2.5rem;
     line-height: 1.2;
+  }
+  #tribute-info ul {
+    padding: 0 1.5rem;
   }
 }
 
@@ -41,7 +61,7 @@ h1 {
   display: block;
   margin: 0 auto 1rem;
   width: 50%;
-  max-width: 50%;
+  max-width: 150px;
 }
 
 #img-div {
