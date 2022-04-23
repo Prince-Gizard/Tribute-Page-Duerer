@@ -1,15 +1,19 @@
-html {
-  font-size: 10px;
+
+body {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 body {
+  display: table;
+  margin: auto;
+  width: 600px;
   padding: 32px;
   font-family: Lucida Console, Courier, monospace;
   font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
   color: #333;
-  margin: 0;
 }
 
 h1 {
@@ -32,6 +36,13 @@ h1 {
 
 #tribute-info li:hover {
   background-color: #f1f1f1;
+}
+
+@media (max-width: 1200px) {
+    html {
+      width: auto;
+      padding: 0 1.5rem;
+    }
 }
 
 @media (max-width: 460px) {
@@ -61,7 +72,7 @@ h1 {
   display: block;
   margin: 0 auto 1rem;
   width: 50%;
-  max-width: 150px;
+  max-width: 200px;
 }
 
 #img-div {
