@@ -1,4 +1,4 @@
-# Tribute-Page-Duerer part 2
+# Tribute-Page-Duerer 
 
 See the project: [Albrecht Durer Page](https://prince-gizard.github.io/Tribute-Page-Duerer/)
 
